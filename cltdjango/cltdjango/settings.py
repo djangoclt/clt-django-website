@@ -62,8 +62,8 @@ WSGI_APPLICATION = 'cltdjango.wsgi.application'
 
 
 # Database
-# https://docs.djangoproject.com/en/1.10/ref/settings/#databases
-
+# Set database URL with an environment variable.
+# Example:  DATABASE_URL='postgres://db_username:db_password@localhost/django_db'
 DATABASES = {'default': dj_database_url.config(conn_max_age=500)}
 
 
