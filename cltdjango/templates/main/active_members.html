@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>{{ title }}</h1>
+
+{% for am in active_members %}
+  <div class="media">
+    <div class="media-left">
+      <img class="media-object img-circle" src="{{ am.photo }}"/>
+    </div>
+    <div class="media-body">
+      <h3 class="media-heading">{{ am.user }}</h3>
+      <p>Date Joined: {{ am.dateJoined }}</p>
+      <p><a href="{{ am.githubUrl }}" target="_blank">Github</a></p>
+      <p><a href="#" target="_blank">Twitter</a></p>
+      <p><a href="{{ am.linkedInUrl }}" target="_blank">LinkedIn</a></p>
+    </div>
+  </div>
+{% endfor %}
+
+{% endblock content %}
