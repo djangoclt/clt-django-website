@@ -1,8 +1,8 @@
-# Charlotte Django Website
+# Charlotte Django Website 
 
 [![Build Status](https://travis-ci.org/djangoclt/clt-django-website.svg?branch=develop)](https://travis-ci.org/djangoclt/clt-django-website)
 
-Repo for our awesome Django website.
+Repo for our awesome Django website for everyone.
 
 ##Requirements
 - Python 3.5
