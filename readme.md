@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/djangoclt/clt-django-website.svg?branch=develop)](https://travis-ci.org/djangoclt/clt-django-website)
 
-Repo for our awesome Django website.
+Repo is an awesome Django website.
 
 ##Requirements
 - Python 3.5
@@ -15,7 +15,7 @@ Repo for our awesome Django website.
    git checkout develop
    ```
 
-3. Make a feature branch following this convention `issue-number` (e.g. `issue-101`)
+3. Make a feature branch following this convention ➡ `issue-number` (e.g. `issue-101`)
    ```
    git checkout -b issue-101
    ```
@@ -23,3 +23,4 @@ Repo for our awesome Django website.
 4. Develop your features locally.
 5. Run unittests
 6. Submit a pull request to the `develop` branch.
+               thanks for visting our site
